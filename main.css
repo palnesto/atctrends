@@ -62,27 +62,18 @@ margin-top: 100px!important;
     text-align: left;
     outline: none;
     font-size: 15px;
+    font-weight: bold;
   }
   
   .active, .collapsible:hover {
-    background-color:#ff5e0ae0;
-    color: white;
+    font-weight: bolder;
   }
   
   .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color:#ffe4c4;
+    background-color:white;
+    color: #4040b1;
   }
-  .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: balck;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .collapsible.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  } 
+ 
