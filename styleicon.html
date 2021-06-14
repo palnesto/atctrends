@@ -117,6 +117,17 @@
     <br/>
     
   </section>
+  
+  <br/>
+  <center><h1 class="orange">Winners leaderboard
+    <br/>
+    <br/>
+  </h1></center>
+  <section class="customer-logos slider">
+    <div class="slide"><img src="images/cos1.jpg"><center><p class="blue">Name Surname<br/><b>40,000</b><br/>Points</p></center></div>
+    <div class="slide"><img src="images/cos2.jpg"><center><p class="blue">Name Surname<br/><b>50,000</b><br/>Points</p></center></div>
+ 
+ </section>
 
 <section>
    <div class="container">
@@ -169,7 +180,7 @@
 <br/>
 <section >
 
-  <center><p class="blue">By participating in this Contest you agree our terms and conditions Terms and Conditions</p></center>
+  <center><p class="blue">By participating in this Contest you agree our Terms and Conditions</p></center>
 
 </section>
 
@@ -234,9 +245,7 @@
         <li>
           <a href="#!">link</a>
         </li>
-        <li>
-          <a href="#!">Link 3</a>
-        </li>
+    
     
       </ul>
 
@@ -302,6 +311,30 @@
         });
     });
                 </script>
+<script>
+  $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+</script>
                 <script>
                   var coll = document.getElementsByClassName("collapsible");
                   var i;
