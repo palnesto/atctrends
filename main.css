@@ -76,4 +76,18 @@ margin-top: 100px!important;
     background-color:white;
     color: #4040b1;
   }
- 
+ .pink{
+    background-color:#7b7ae0;
+    color: white;
+ }
+ .pink a{
+    
+    color: white;
+ }
+ .py-3{
+     padding: 10px;
+    background-color:#2d2dbd;  
+ }
+ li > a{
+    color: white;
+ }
