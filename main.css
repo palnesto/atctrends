@@ -1,0 +1,16 @@
+.btn{
+    border: 1px solid orangered;
+    color: orange;
+}
+.nav-gap{
+    padding: 10px 0;
+}
+.navbar {
+    border-radius: 0!important;
+    box-shadow: 0px 2px #8888881a;
+    min-height: 70px;
+    
+}
+.navbar-default{
+    background-color: white;
+}
