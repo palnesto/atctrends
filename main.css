@@ -35,17 +35,17 @@ section{
 margin-top: 100px!important;
 }
 .orange{
-    color: orange;
+    color: #4040b1;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
 .orange1{
-    color: orange;
+    color:  #4040b1;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
 .blue{
-    color:#4040b1;
+    color:orange;
     font-size: 15px;  
 
 }
@@ -91,3 +91,17 @@ margin-top: 100px!important;
  li > a{
     color: white;
  }
+ .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
