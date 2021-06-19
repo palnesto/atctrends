@@ -242,3 +242,7 @@ margin-top: 100px!important;
     display: none;
 }
 
+.btn-warning{
+    color: white!important;
+    border: 1px solid orange;
+}
