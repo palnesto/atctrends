@@ -108,21 +108,8 @@
     z-index: 999;
     display: none;
   }
-  .location{
-    position: fixed;
-    top: 7rem;
 
-    z-index: 998;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
-    padding: 1rem;
-background: white;
-width: 100%;
-
-
-  }
-  .location button, nav button{
+  nav button{
     border: none;
 text-transform: uppercase;
     padding: .5rem 1rem;
@@ -131,16 +118,8 @@ text-transform: uppercase;
      color: orange;
   }
 
-  @media screen and (min-width: 500px){
-    .location button{
-      display: none;
-    }
-  }
-  @media screen and (max-width: 500px){
-    nav button{
-      display: none;
-    }
-  }
+
+
 </style>
 </head>
 <body>
@@ -154,23 +133,22 @@ text-transform: uppercase;
    <div class="container-fluid">
      <div style="display:flex;align-items:center;" class="nav-gap">
 
- <div class="col-md-6 col-xs-4"><img src="images/ATC-LOGO.jpg" width="60px;" height="50px;"></div>
+ <div class="col-md-4 col-xs-3"><img src="images/ATC-LOGO.jpg" width="60px;" height="50px;"></div>
 
- <button onclick="togglePopup()">
-   location
- </button>
-  <div class="col-md-6 col-xs-8 " >
+ <div class="col-md-4 col-xs-4">
+  <button onclick="togglePopup()">
+    location
+  </button>
+ </div>
+  <div class="col-md-4 col-xs-5 " >
+  
     <a style="font-size: 14px;" href="https://api.whatsapp.com/send?phone=+9170321 86217&amp;text=Hi" class="btn btn-outline-warning btn-lg pull-right" >REGISTER NOW</a>
   </div>
   </div>
    </div>
 
  </nav>
- <div class="location">
-   <button onclick="togglePopup()">
-     location
-   </button>
- </div>
+
 <div onclick="togglePopup()" class="popup-bg">
 
 </div>
