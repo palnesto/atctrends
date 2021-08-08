@@ -77,7 +77,11 @@ margin-top: 72px!important;
 
 }
 .imagestep{
+    
     margin-bottom: 10px;
+    border: 2px solid white;
+    
+   
 }
 .collapsible {
     background-color:white ;
@@ -104,7 +108,7 @@ margin-top: 72px!important;
     color: #4040b1;
   }
  .pink{
-    background-color:#7b7ae0;
+    background-color:#343438;
     color: white;
  }
  .pink a{
@@ -113,7 +117,7 @@ margin-top: 72px!important;
  }
  .py-3{
      padding: 10px;
-    background-color:#2d2dbd;  
+    background-color:black;  
  }
  li > a {
     color: white;
