@@ -9,6 +9,7 @@
     <title>ATC</title>
     <!-- CSS only -->
     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">    
@@ -74,6 +75,17 @@
   </script>
 </head>
 <body>
+  <!-- partial:index.partial.html -->
+  <div id="ac-wrapper" style='display:none'>
+    <div id="popup">
+      <button onClick="PopUp('hide')" class="right">close(X)</button> 
+        <center>
+            <img src="images/ATC website banner.png" width="100%" height="100%">
+      
+        </center>
+    </div>
+</div>
+<!-- partial -->
         <nav class="navbar navbar-default navbar-inverse">
             <div class="container">
               <!-- Brand and toggle get grouped for better mobile display -->
@@ -340,6 +352,19 @@
 </div>
 <div style="font-size: 13px; font-weight: 400; ">© 2019 ATC. All Rights Reserved.</div>
 </div>
-
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script>
+function PopUp(hideOrshow) {
+    if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+    else document.getElementById('ac-wrapper').removeAttribute('style');
+}
+window.onload = function () {
+    setTimeout(function () {
+        PopUp('show');
+    }, 0);
+}
+   </script>
 </body>
+
 </html>
