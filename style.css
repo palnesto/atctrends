@@ -59,9 +59,7 @@ img{
 .brand{
     width: 50px!important;
 }
-.single-img {
-    display: inline-flex;
-}
+
 .affordable{
     width: 100%;
 }
@@ -75,8 +73,7 @@ h2{
 }
 
 .single-img > div{
-    padding-left: 1px;
-    padding-right: 1px;
+padding: 5px;
 }
 
 
